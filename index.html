@@ -11,13 +11,43 @@
 </head>
 
 <body>
-    <Form name="QE" id="QEForm">
-        <p>ax<sup>2</sup>+bx+c=0</p>
-        <p> Tips: Зразок запису рiвняння 2x^2+3x+5=0</p>
-        <input type="text" name="quadratic_equation" id="quadratic-equation">
-        <input type="button" value="submit" onclick="Quadratic_equation('quadratic-equation')">
-    </Form>
-    <div id="QEjscreate"></div>
+    <div class="container">
+
+        <body>
+            <div class="container">
+                <Form>
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="">
+                    
+                    <p><input type="radio" name="gender" value="male"> male</p>
+                    <p><input type="radio" name="gender" value="other">female</p>
+                    <p><input type="radio" name="gender" value="other">other</p>
+
+                    <input type="reset" value="reset">
+                </Form>
+                <Form name="QE" id="QEForm">
+                    <p>ax<sup>2</sup>+bx+c=0</p>
+                    <input type="text" name="quadratic_equation">
+                    <input type="button" value="submit" onclick="Quadratic_equation()">
+                </Form>
+                <button onclick="openTab(event,'Tips-Tab')"> Tips</button>
+                <div id="Tips-Tab" class="tabcontent">
+                    <button class="close-btn" onclick="closeTab(event,'Tips-Tab')"> x</button>
+                    <p> Калькулятор пiдтримуе таки записи</p>
+                    <p>a=1, b=3 ,c=5 <br> a=1 b=3 c=5 <br> 1x<sup>2</sup>+2x+5=0 <br> 1 3 5 <br> 1,3,5</p>
+                </div>
+                <div id="QEjscreate"></div>
+
+
+            </div>
+
+            <body>
+    </div>
 </body>
 
 </html>

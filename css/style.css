@@ -1,0 +1,55 @@
+body {
+  color: rgb(243, 243, 243);
+  background: rgb(24, 22, 22);
+}
+
+.container {
+  background: rgb(26, 28, 44);
+  max-width: 1250px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tabcontent {
+  display: none;
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border: 2px solid rgb(100, 90, 0);
+  background: rgb(26, 24, 51);
+}
+.tabcontent .close-btn {
+  border: none;
+  font-weight: bold;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  float: right;
+  background: none;
+  cursor: pointer;
+  color: rgb(243, 243, 243);
+}
+.tabcontent .close-btn:hover {
+  color: rgb(196, 2, 2);
+}
+
+.h2textjs {
+  margin: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+  background: rgb(99, 105, 3);
+  padding: 0.5rem;
+}
+
+#QEjscreate {
+  margin: 0.5rem;
+  border: 2px solid rgb(100, 90, 0);
+}
+
+.ptextjs {
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
